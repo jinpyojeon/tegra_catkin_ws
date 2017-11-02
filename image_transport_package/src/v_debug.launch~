@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="image_transport_package" name="video_test" type="video_test" output="screen">
+    <param name="image_transport" value="theora" />
+  </node>
+
+</launch>
+
